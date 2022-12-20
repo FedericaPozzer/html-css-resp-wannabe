@@ -1,0 +1,55 @@
+/*  Tablet - da 768px in giù */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+
+/* Mobile - da 480px in giù */
+
+@media screen and (max-width: 480px) {
+    
+        h1 {
+            font-size: 3rem;
+        }
+    
+        h2 {
+            font-size: 2.5rem;
+        }
+    
+        h3 {
+            font-size: 2rem;
+        }
+    
+    
+
+    .container {
+        max-width: 480px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col, 
+    .steps .col,
+    .why-us .col  {
+        padding: 0 0 5rem 0;
+        width: 85%;
+    }
+
+    .why-us {
+        padding-top: 3rem;
+        background-color: #222222;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+}
